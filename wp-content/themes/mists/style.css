@@ -1,0 +1,47 @@
+/*
+Theme Name: Mist Theme
+Theme URI: https://example.com/my-custom-theme
+Author: CJ Eilenstine
+Author URI: https://example.com
+Description: The mists are on our side.
+Version: 1.0
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 10vh;
+  background-color: aqua;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
