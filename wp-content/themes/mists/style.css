@@ -1,5 +1,5 @@
 /*
-Theme Name: Mist Theme
+Theme Name: Mist
 Theme URI: https://example.com/my-custom-theme
 Author: CJ Eilenstine
 Author URI: https://example.com
@@ -28,7 +28,7 @@ p {
 
 nav {
   height: 10vh;
-  background-color: aqua;
+  background-color: rgb(73, 2, 2);
 }
 
 nav ul {
@@ -42,6 +42,21 @@ nav ul {
   list-style: none;
 }
 
-nav ul li a {
+nav ul li {
   text-decoration: none;
+  color: whitesmoke;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mainDiv {
+  height: 90vh;
+  background-color: rgba(122, 122, 122, 0.9);
+}
+
+.mainDiv h1,
+h4,
+p {
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

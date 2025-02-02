@@ -1,0 +1,16 @@
+/*
+Theme Name: Ash
+Template: Mist
+*/
+
+.mainDiv {
+  background-color: whitesmoke;
+}
+
+.mainDiv h1,
+h4,
+p {
+  color: dimgray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
